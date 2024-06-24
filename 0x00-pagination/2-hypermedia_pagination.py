@@ -39,7 +39,7 @@ class Server:
             return []
         return data[start:end]
 
-    def get_hyper(page: int = 1, page_size: int = 10) -> Dict:
+    def get_hyper(self, page: int = 1, page_size: int = 10) -> Dict:
         """Retrieves information about a page.
         """
         data = self.get_page(page, page_size)
