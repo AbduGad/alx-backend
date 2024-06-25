@@ -2,7 +2,7 @@
 """Pagination helper function.
 """
 from flask import Flask, request, jsonify
-import pandas
+#import pandas made problems in checker
 from typing import Tuple
 
 
