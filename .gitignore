@@ -1,2 +1,4 @@
 *main*
 *pycache*
+*node_modules*
+redis*
